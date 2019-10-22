@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Asteroides</string>
+    <string name="large_text">
+      texto
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="about_link"><a href='https://www.instagram.com/javibadillo/'>@javibadillo</a></string>
+</resources>
