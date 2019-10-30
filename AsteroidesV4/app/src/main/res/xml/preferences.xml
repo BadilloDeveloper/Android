@@ -1,0 +1,38 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="preferencias_principal" >
+    <CheckBoxPreference
+        android:key="musica"
+        android:title="Reproducir música"
+        android:summary="Se reproduce música de fondo"/>
+    <ListPreference
+        android:key="graficos"
+        android:title="Tipo de gráficos"
+        android:summary="Se escoge la representación .."
+        android:entries="@array/tiposGraficos"
+        android:entryValues="@array/tiposGraficosValores"
+        android:defaultValue="0"/>
+    <EditTextPreference
+        android:key="fragmentos"
+        android:title="Número de Fragmentos"
+        android:summary="En cuantos trozos se divide un asteroide"
+        android:inputType="number"
+        android:defaultValue="3"/>
+        <PreferenceCategory
+            android:title="Modo multijugador"
+            >
+
+            <CheckBoxPreference
+                android:key="multi"
+                android:title="Modo Multijugador"
+                android:summary="Permite jugar a 2 personas"/>
+            <EditTextPreference
+                android:key="numjugadores"
+                android:title="Número de Jugadores"
+                android:summary="numero de jugadores"
+                android:inputType="number"
+                android:defaultValue="1"/>
+
+
+        </PreferenceCategory>
+
+</PreferenceScreen>
