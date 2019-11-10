@@ -1,0 +1,30 @@
+﻿Unidad 5 
+(X) Ejercicio: Introduciendo movimiento en Asteroides 
+(X) Ejercicio: Introduciendo secciones críticas en Java (synchronized) 
+NOTA: Tras realizar este ejercicio puede que la entrada en la actividad Juego se retrase unos segundos. Se explicó en el repaso de la U5 la forma de resolverlo. 
+(X) Ejercicio: Manejo de la nave con el teclado 
+(X) Práctica: Manejo de la nave con el teclado 
+(X) Ejercicio: Manejo de la nave con la pantalla táctil (importante) 
+(X) Ejercicio: Manejo de la nave con el sensor de orientación 
+(X) Práctica: Configurando tipo de entrada en preferencias 
+(X) Ejercicio: Introduciendo un misil en Asteroides (importante) 
+
+Extras: 
+(X) Práctica: Manejo de la nave con el sensor de aceleración 
+(_) Práctica: Aceleración de la nave con sensores 
+(X) Desafio: Disparando varios misiles a la vez 
+(_) Desafio: Un misil basado en AnimationDrawable: En caso de que el usuario escoja gráficos en mapa de bits el drawable asignado al misil será de tipo AnimationDrawable, de forma que se muestre una animación con los tres gráficos proporcionados para el misil.
+
+
+
+ Unidad 6 
+(X) Ejercicio: Aplicando eventos del ciclo de vida en la actividad Juego de Asteroides (importante) 
+(X) Práctica: Aplicando eventos del ciclo de vida en la actividad inicial. 
+(X) Práctica: Aplicando eventos del ciclo de vida en la actividad Juego para desactivar los sensores (importante) 
+(X) Práctica: Guardando el estado en la actividad inicial 
+(X) Ejercicio: Introduciendo audio con SoundPool en Asteroides
+Android: Fundamentos de Programación
+
+Extras:
+(_) Otras mejoras propuestas que quieras añadir
+(X) Entrega dentro de plazo

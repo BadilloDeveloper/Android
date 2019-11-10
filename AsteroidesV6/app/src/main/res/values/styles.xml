@@ -1,0 +1,49 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="TemaRosa" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark2</item>
+        <item name="colorAccent">@color/colorAccent2</item>
+        <item name="android:textColor">@color/colorAccent2  </item>
+
+    </style>
+
+    <style name="TemaAzul" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#83B3FF</item>
+        <item name="colorPrimaryDark">#6BBCE8</item>
+        <item name="colorAccent">#6554CC</item>
+        <item name="android:textColor">#6554CC  </item>
+        <item name="android:background">#6BBCE8</item>
+    </style>
+
+
+    <style name="BotonAsteroide" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">#fff  </item>
+        <item name="android:background">@color/colorAccent3  </item>
+        <item name="android:padding">1dp</item>
+        <item name="android:layout_margin">3dp</item>
+    </style>
+
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

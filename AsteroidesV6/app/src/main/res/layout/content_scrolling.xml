@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ScrollingActivity"
+    tools:showIn="@layout/activity_scrolling">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp">
+
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnplay"
+            style="@style/BotonAsteroide"
+            android:onClick="buttonClick"
+            android:text="Play"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            style="@style/BotonAsteroide"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnconfiguracion"
+            android:onClick="buttonClick"
+            android:text="Configuration"/>
+        <androidx.appcompat.widget.AppCompatButton
+            style="@style/BotonAsteroide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="buttonClick"
+            android:id="@+id/btnabout"
+            android:text="About"/>
+        <androidx.appcompat.widget.AppCompatButton
+            style="@style/BotonAsteroide"
+            android:id="@+id/btnscore"
+            android:layout_width="match_parent"
+            android:onClick="buttonClick"
+            android:layout_height="wrap_content"
+            android:text="Score"/>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.core.widget.NestedScrollView>
