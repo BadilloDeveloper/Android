@@ -4,6 +4,7 @@ import android.annotation.SuppressLint;
 import android.app.PendingIntent;
 import android.app.TaskStackBuilder;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.drawable.TransitionDrawable;
 import android.media.MediaPlayer;
 import android.os.Bundle;
@@ -15,6 +16,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.content.res.AppCompatResources;
 import androidx.appcompat.widget.Toolbar;
 
+import android.preference.PreferenceManager;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -33,24 +35,36 @@ public class ScrollingActivity extends AppCompatActivity {
         setContentView(R.layout.activity_scrolling);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        RunAnimation();
+
+        SharedPreferences pref = PreferenceManager.getDefaultSharedPreferences(this);
+        if(pref.getBoolean("musica",false)){
         mp = MediaPlayer.create(this, R.raw.audio);
         mp.start();
+        }
     }
 
     @Override protected void onPause() {
 
         super.onPause();
+        SharedPreferences pref = PreferenceManager.getDefaultSharedPreferences(this);
+        if(pref.getBoolean("musica",false)){
         mp.pause();
+        }
     }
     @Override protected void onResume() {
         super.onResume();
+        SharedPreferences pref = PreferenceManager.getDefaultSharedPreferences(this);
+        if(pref.getBoolean("musica",false)){
         mp.start();
+        }
 
     }
     @Override protected void onDestroy() {
+        SharedPreferences pref = PreferenceManager.getDefaultSharedPreferences(this);
+        if(pref.getBoolean("musica",false)){
         mp.pause();
         super.onDestroy();
+        }
     }
 
     @Override protected void onSaveInstanceState(Bundle estadoGuardado){
@@ -67,7 +81,7 @@ public class ScrollingActivity extends AppCompatActivity {
             mp.seekTo(pos);
         }
     }
-
+/*
     private void RunAnimation()
     {
         Animation a = AnimationUtils.loadAnimation(this, R.anim.myanimacion);
@@ -75,7 +89,7 @@ public class ScrollingActivity extends AppCompatActivity {
         Button tv = (Button) findViewById(R.id.btnplay);
         tv.clearAnimation();
         tv.startAnimation(a);
-    }
+    }*/
 
 
     public void buttonClick(View v) {

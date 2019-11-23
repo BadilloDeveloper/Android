@@ -3,7 +3,8 @@
     <CheckBoxPreference
         android:key="musica"
         android:title="Reproducir música"
-        android:summary="Se reproduce música de fondo"/>
+        android:summary="Se reproduce música de fondo"
+        android:defaultValue="false"/>
     <ListPreference
         android:key="graficos"
         android:title="Tipo de gráficos"
@@ -25,7 +26,7 @@
         android:summary="En cuantos trozos se divide un asteroide"
         android:inputType="number"
         android:defaultValue="3"/>
-        <PreferenceCategory
+        <!--<PreferenceCategory
             android:title="Modo multijugador"
             >
 
@@ -41,6 +42,6 @@
                 android:defaultValue="1"/>
 
 
-        </PreferenceCategory>
+        </PreferenceCategory>-->
 
 </PreferenceScreen>

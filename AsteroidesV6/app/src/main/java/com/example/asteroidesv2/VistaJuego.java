@@ -251,10 +251,9 @@ public class VistaJuego extends View implements SensorEventListener
 
     }
 
-    private void destruyeAsteroide(int i) {
+    private void destruyeAsteroide(int i,int j) {
         soundPool.play(idExplosion, 1, 1, 1, 0, 1);
-        asteroides.remove(i);
-        //misilActivo = false;
+        asteroides.remove(j);
         misiles.remove(i);
         this.postInvalidate();
     }
@@ -301,7 +300,7 @@ public class VistaJuego extends View implements SensorEventListener
                 } else {
                     for (int j = 0; j < asteroides.size(); j++)
                         if (misiles.get(i).verificaColision(asteroides.get(j))) {
-                            destruyeAsteroide(j);
+                            destruyeAsteroide(i,j);
                             break;
                         }
                 }
