@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "948963819753",
+    "firebase_url": "https://idealhouse-6558e.firebaseio.com",
+    "project_id": "idealhouse-6558e",
+    "storage_bucket": "idealhouse-6558e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948963819753:android:8cb5d60b8aabdce14db078",
+        "android_client_info": {
+          "package_name": "com.example.idealhouse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "948963819753-8f68iavfqgfqk6p27ns2ptsbjar489k2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.idealhouse",
+            "certificate_hash": "2778f52af2788e327af17e8cfb242c1cc4542e04"
+          }
+        },
+        {
+          "client_id": "948963819753-ll3qrnm89h1ihps8st4gcd92o6im096l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkMRwpcFqZnO492s68gpoIoqoS1bnoKTU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "948963819753-ll3qrnm89h1ihps8st4gcd92o6im096l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

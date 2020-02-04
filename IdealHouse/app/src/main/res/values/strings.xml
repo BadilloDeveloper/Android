@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">IdealHouse</string>
+    <string name="action_settings">settings</string>
+    <string name="logout">log out</string>
+    <string name="facebook_application_id" translatable="false">168381231150178</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb168381231150178</string>
+
+</resources>
